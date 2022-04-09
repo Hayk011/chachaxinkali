@@ -1,0 +1,44 @@
+.menu-item {
+    list-style-type: none;
+    display: flex;
+}
+
+.menu-item-content-container {
+    margin-left: 20px;
+    width: calc(100% - 110px);
+}
+
+.menu-item-description {
+    max-width: 408px;
+    font-family: 'Neucha', cursive;
+    color: #FFFFFF;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    margin-top: 12px;
+}
+
+.menu-item > div span {
+    font-family: "Montserrat", sans-serif;
+    color: #FFFFFF;
+    font-style: normal;
+    font-size: 20px;
+    letter-spacing: 0.02em;;
+}
+
+.menu-item-image {
+    position: absolute !important;
+    top: 5px;
+    object-fit: contain;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+}
+
+.menu-item-price {
+    display: inline-block;
+    text-align: left;
+}
+html .menu-item-image-container .gatsby-image-wrapper {
+    height: 75px !important;
+    width: 75px !important;
+}

@@ -1,0 +1,76 @@
+header {
+    position: absolute;
+    left: 80px;
+    right: 80px;
+    top: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    z-index: 2;
+}
+
+.menu-container {
+    display: flex;
+}
+
+.burger-menu {
+    display: none;
+}
+
+.menu-container :not(:first-child) {
+    margin-left: 80px;
+}
+
+.menu-container li {
+    list-style-type: none;
+}
+
+.menu-container li a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+@media only screen and (max-width: 990px) {
+    .menu-container :not(:first-child) {
+        margin-left: 50px;
+    }
+}
+
+@media only screen and (max-width: 925px) {
+    .menu-container :not(:first-child) {
+        margin-left: 35px;
+    }
+}
+
+@media only screen and (max-width: 820px) {
+    .menu-container {
+        display: none;
+    }
+
+    .burger-menu {
+        display: block;
+        cursor: pointer;
+    }
+
+    .burger-menu span {
+        display: block;
+        width: 30px;
+        height: 3px;
+        background-color: #FFFFFF;
+    }
+
+    .burger-menu span:not(:first-child) {
+        margin-top: 5px;
+    }
+}
+@media only screen and (max-width: 642px) {
+    header {
+        left: 20px;
+        right: 20px;
+    }
+}

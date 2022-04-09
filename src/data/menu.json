@@ -1,0 +1,794 @@
+[
+  {
+    "id": 1,
+    "image_path": "IMG_3460.jpg",
+    "image_name": "IMG_3460",
+    "category": "MAIN",
+    "price": 460,
+    "title": "Ассорти пхали",
+    "description": "Пхали из стручковой фасоли, пхали из свеклы, пхали из шпината, рулетики из баклажанов."
+  },
+  {
+    "id": 2,
+    "image_path": "IMG_3462.jpg",
+    "image_name": "IMG_3462",
+    "category": "MAIN",
+    "price": 390,
+    "title": "Рулетики из баклажанов",
+    "description": "С начинкой из острой ореховой пасты и зернами граната."
+  },
+  {
+    "id": 3,
+    "image_path": "IMG_3463.jpg",
+    "image_name": "IMG_3463",
+    "category": "MAIN",
+    "price": 390,
+    "title": "Рулетики из баклажанов",
+    "description": "С начинкой из острой ореховой пасты и зернами граната."
+  },
+  {
+    "id": 4,
+    "image_path": "IMG_3474.jpg",
+    "image_name": "IMG_3474",
+    "category": "MAIN",
+    "price": 380,
+    "title": "Сациви из курицы",
+    "description": "Пряный соус из молодых грецких орехов и острых кавказских специй с кусочками куриной мякоти."
+  },
+  {
+    "id": 5,
+    "image_path": "IMG_3491.jpg",
+    "image_name": "IMG_3491",
+    "category": "MAIN",
+    "price": 410,
+    "title": "Ссырное ассорти",
+    "description": "Чечил, сулугуни, сулугуни копченый, Имеретинский, виноград, мед."
+  },
+  {
+    "id": 6,
+    "image_path": "IMG_3501.jpg",
+    "image_name": "IMG_3501",
+    "category": "",
+    "price": 100,
+    "title": "Жареная курица",
+    "description": "Приготовлено с любовью."
+  },
+  {
+    "id": 7,
+    "image_path": "IMG_3508.jpg",
+    "image_name": "IMG_3508",
+    "category": "MAIN",
+    "price": 360,
+    "title": "Гебжалия",
+    "description": "Рулетики из сулугуни с соусом Надуги."
+  },
+  {
+    "id": 8,
+    "image_path": "IMG_3513.jpg",
+    "image_name": "IMG_3513",
+    "category": "SALAD",
+    "price": 380,
+    "title": "Ассорти овощей и зелени",
+    "description": "Томаты, огурцы, сладкая паприка, перец чили, петрушка, укроп, кинза, базилик."
+  },
+  {
+    "id": 9,
+    "image_path": "IMG_3524.jpg",
+    "image_name": "IMG_3524",
+    "category": "SALAD",
+    "price": 310,
+    "title": "Сельдь",
+    "description": "С картофелем и маринованным красным луком"
+  },
+  {
+    "id": 10,
+    "image_path": "IMG_3534.jpg",
+    "image_name": "IMG_3534",
+    "category": "MAIN",
+    "price": 380,
+    "title": "Ассорти солений",
+    "description": "Маринованный стручковый перец, мжаве, маринованный чеснок, соленые помидоры, малосольные огурчики, черемша."
+  },
+  {
+    "id": 11,
+    "image_path": "IMG_3546.jpg",
+    "image_name": "IMG_3546",
+    "category": "MAIN",
+    "price": 340,
+    "title": "Отварной язык с хреном",
+    "description": "Приготовлено с любовью."
+  },
+  {
+    "id": 12,
+    "image_path": "IMG_3552.jpg",
+    "image_name": "IMG_3552",
+    "category": "SNACKS",
+    "price": 310,
+    "title": "Бастурма",
+    "description": "Вяленая говядина в специях"
+  },
+  {
+    "id": 13,
+    "image_path": "IMG_3560.jpg",
+    "image_name": "IMG_3560",
+    "category": "SNACKS",
+    "price": 310,
+    "title": "Суджук",
+    "description": "Сырокопченая говядина"
+  },
+  {
+    "id": 14,
+    "image_path": "IMG_3567.jpg",
+    "image_name": "IMG_3567",
+    "category": "SALAD",
+    "price": 180,
+    "title": "Мжаве",
+    "description": "Маринованная красная капуста в ароматных травах с чили перцем."
+  },
+  {
+    "id": 15,
+    "image_path": "IMG_3580.jpg",
+    "image_name": "IMG_3580",
+    "category": "SALAD",
+    "price": 320,
+    "title": "Маринованные грибы",
+    "description": "С  ароматным маслом и красным луком."
+  },
+  {
+    "id": 16,
+    "image_path": "IMG_3587.jpg",
+    "image_name": "IMG_3587",
+    "category": "MAIN",
+    "price": 540,
+    "title": "Мясное ассорти",
+    "description": "Отварной язык, бастурма, суджук, подается с хреном."
+  },
+  {
+    "id": 17,
+    "image_path": "IMG_3597.jpg",
+    "image_name": "IMG_3597",
+    "category": "SALAD",
+    "price": 360,
+    "title": "Три вида сала",
+    "description": "С черным хлебом, хреном и горчицей."
+  },
+  {
+    "id": 18,
+    "image_path": "IMG_3608.jpg",
+    "image_name": "IMG_3608",
+    "category": "",
+    "price": 100,
+    "title": "Жареная курица",
+    "description": "Приготовлено с любовью."
+  },
+  {
+    "id": 19,
+    "image_path": "IMG_3615.jpg",
+    "image_name": "IMG_3615",
+    "category": "SALAD",
+    "price": 360,
+    "title": "Салат по-грузински с грецким орехом",
+    "description": "Томаты, огурцы, лук красный, кинза, петрушка, базилик с заправкой на основе грецкого ореха."
+  },
+  {
+    "id": 20,
+    "image_path": "IMG_3631.jpg",
+    "image_name": "IMG_3631",
+    "category": "SALAD",
+    "price": 320,
+    "title": "Салат по-деревенски",
+    "description": "Томаты, огурцы, лук красный, кинза, петрушка, базилик , оливковое масло."
+  },
+  {
+    "id": 21,
+    "image_path": "IMG_3641.jpg",
+    "image_name": "IMG_3641",
+    "category": "SALAD",
+    "price": 340,
+    "title": "Капрезе по-восточному",
+    "description": "Сыр сулугуни с томатами и песто из кинзы."
+  },
+  {
+    "id": 22,
+    "image_path": "IMG_3650.jpg",
+    "image_name": "IMG_3650",
+    "category": "SALAD",
+    "price": 410,
+    "title": "Теплый салат с телятиной",
+    "description": "Телятина, обжаренная в соевом соусе, томаты, огурцы, микс салатов с заправкой из домашнего майонеза."
+  },
+  {
+    "id": 23,
+    "image_path": "IMG_3661.jpg",
+    "image_name": "IMG_3661",
+    "category": "SALAD",
+    "price": 370,
+    "title": "Теплый салат с куриной печенью",
+    "description": "Куриная печень, обжаренная на оливковом масле, с добавлением чеснока и чили перца, жаренные шампиньоны с красным луком, цукини, домашние вяленые томаты, микс салатов с заправкой из домашнего майонеза."
+  },
+  {
+    "id": 24,
+    "image_path": "IMG_3669.jpg",
+    "image_name": "IMG_3669",
+    "category": "SALAD",
+    "price": 390,
+    "title": "Цезарь с курицей",
+    "description": "Приготовлено с любовью."
+  },
+  {
+    "id": 25,
+    "image_path": "IMG_3679.jpg",
+    "image_name": "IMG_3679",
+    "category": "",
+    "price": 100,
+    "title": "Жареная курица",
+    "description": "Приготовлено с любовью."
+  },
+  {
+    "id": 26,
+    "image_path": "IMG_3686.jpg",
+    "image_name": "IMG_3686",
+    "category": "SALAD",
+    "price": 440,
+    "title": "Цезарь с креветками",
+    "description": "Приготовлено с любовью."
+  },
+  {
+    "id": 27,
+    "image_path": "IMG_3695.jpg",
+    "image_name": "IMG_3695",
+    "category": "SALAD",
+    "price": 360,
+    "title": "Острый салат с хрустящими баклажанами",
+    "description": "Обжаренные баклажаны, томаты, мягкий сыр с соусом на основе оливкового масла с чили перцем, кинзой и базиликом."
+  },
+  {
+    "id": 28,
+    "image_path": "IMG_3702.jpg",
+    "image_name": "IMG_3702",
+    "category": "SALAD",
+    "price": 380,
+    "title": "Салат с отварным языком",
+    "description": "Отварной говяжий язык, обжаренные шампиньоны, огурцы свежие, заправка из домашнего майонеза."
+  },
+  {
+    "id": 29,
+    "image_path": "IMG_3707.jpg",
+    "image_name": "IMG_3707",
+    "category": "SALAD",
+    "price": 490,
+    "title": "Ссалат с лососем слабой соли",
+    "description": "Микс салатов, томаты черри, ломтики лосося слабой соли с горчично-апельсиновой заправкой."
+  },
+  {
+    "id": 30,
+    "image_path": "IMG_3719.jpg",
+    "image_name": "IMG_3719",
+    "category": "",
+    "price": 100,
+    "title": "Жареная курица",
+    "description": "Приготовлено с любовью."
+  },
+  {
+    "id": 31,
+    "image_path": "IMG_3727.jpg",
+    "image_name": "IMG_3727",
+    "category": "",
+    "price": 100,
+    "title": "Жареная курица",
+    "description": "Приготовлено с любовью."
+  },
+  {
+    "id": 32,
+    "image_path": "IMG_3738.jpg",
+    "image_name": "IMG_3738",
+    "category": "SALAD",
+    "price": 330,
+    "title": "Греческий",
+    "description": "Томаты, огурцы, паприка, мягкий сыр, оливки, микс салатов, красный лук с оливковым маслом."
+  },
+  {
+    "id": 33,
+    "image_path": "IMG_3756.jpg",
+    "image_name": "IMG_3756",
+    "category": "",
+    "price": 100,
+    "title": "Жареная куриц",
+    "description": "Приготовлено с любовью."
+  },
+  {
+    "id": 34,
+    "image_path": "IMG_3763.jpg",
+    "image_name": "IMG_3763",
+    "category": "",
+    "price": 100,
+    "title": "Жареная курица",
+    "description": "Приготовлено с любовью."
+  },
+  {
+    "id": 35,
+    "image_path": "IMG_3767.jpg",
+    "image_name": "IMG_3767",
+    "category": "",
+    "price": 100,
+    "title": "Жареная курица",
+    "description": "Приготовлено с любовью."
+  },
+  {
+    "id": 36,
+    "image_path": "IMG_3772.jpg",
+    "image_name": "IMG_3772",
+    "category": "MAIN",
+    "price": 190,
+    "title": "Квари с сыром и тархуном",
+    "description": "Традиционные вареники с сыром и тархуном."
+  },
+  {
+    "id": 37,
+    "image_path": "IMG_3775.jpg",
+    "image_name": "IMG_3775",
+    "category": "MAIN",
+    "price": 140,
+    "title": "Чебуреки с говядиной и свининой",
+    "description": "Приготовлено с любовью."
+  },
+  {
+    "id": 38,
+    "image_path": "IMG_3779.jpg",
+    "image_name": "IMG_3779",
+    "category": "MAIN",
+    "price": 390,
+    "title": "Хачапури по-аджарски",
+    "description": "Приготовлено с любовью."
+  },
+  {
+    "id": 39,
+    "image_path": "IMG_3793.jpg",
+    "image_name": "IMG_3793",
+    "category": "HOT-SNACK",
+    "price": 320,
+    "title": "Шампиньоны запеченные с сыром сулугуни",
+    "description": "Приготовлено с любовью."
+  },
+  {
+    "id": 40,
+    "image_path": "IMG_3799.jpg",
+    "image_name": "IMG_3799",
+    "category": "HOT-SNACK",
+    "price": 320,
+    "title": "Запеченный сыр сулугуни с томатами",
+    "description": "Приготовлено с любовью."
+  },
+  {
+    "id": 41,
+    "image_path": "IMG_3806.jpg",
+    "image_name": "IMG_3806",
+    "category": "MAIN",
+    "price": 470,
+    "title": "Хачапури по-мегрельски",
+    "description": "Приготовлено с любовью."
+  },
+  {
+    "id": 42,
+    "image_path": "IMG_3814.jpg",
+    "image_name": "IMG_3814",
+    "category": "",
+    "price": 100,
+    "title": "Жареная курица",
+    "description": "Приготовлено с любовью."
+  },
+  {
+    "id": 43,
+    "image_path": "IMG_3827.jpg",
+    "image_name": "IMG_3827",
+    "category": "MAIN",
+    "price": 530,
+    "title": "Хачапури с копченым сулугуни",
+    "description": "Приготовлено с любовью."
+  },
+  {
+    "id": 44,
+    "image_path": "IMG_3834.jpg",
+    "image_name": "IMG_3834",
+    "category": "BRAZIER",
+    "price": 430,
+    "title": "Шашлык из свинины",
+    "description": "Приготовлено с любовью."
+  },
+  {
+    "id": 45,
+    "image_path": "IMG_3839.jpg",
+    "image_name": "IMG_3839",
+    "category": "BRAZIER",
+    "price": 410,
+    "title": "Шашлык из курицы",
+    "description": "Приготовлено с любовью."
+  },
+  {
+    "id": 46,
+    "image_path": "IMG_3846.jpg",
+    "image_name": "IMG_3846",
+    "category": "MAIN",
+    "price": 370,
+    "title": "Хачапури по-аджарски со шпинатом",
+    "description": "Приготовлено с любовью."
+  },
+  {
+    "id": 47,
+    "image_path": "IMG_3867.jpg",
+    "image_name": "IMG_3867",
+    "category": "MAIN",
+    "price": 440,
+    "title": "Хачапури по-имеретински",
+    "description": "Приготовлено с любовью."
+  },
+  {
+    "id": 48,
+    "image_path": "IMG_3871.jpg",
+    "image_name": "IMG_3871",
+    "category": "MAIN",
+    "price": 390,
+    "title": "Хачапури на мангале",
+    "description": "Хачапури на шампуре из слоеного теста с сыром сулугуни."
+  },
+  {
+    "id": 49,
+    "image_path": "IMG_3875.jpg",
+    "image_name": "IMG_3875",
+    "category": "MAIN",
+    "price": 510,
+    "title": "Кубдари",
+    "description": "Традиционный грузинский мясной пирог с телятиной."
+  },
+  {
+    "id": 50,
+    "image_path": "IMG_8937.jpg",
+    "image_name": "IMG_8937",
+    "category": "BRAZIER",
+    "price": 580,
+    "title": "Шашлык из баранины",
+    "description": "Приготовлено с любовью."
+  },
+  {
+    "id": 51,
+    "image_path": "IMG_8942.jpg",
+    "image_name": "IMG_8942",
+    "category": "BRAZIER",
+    "price": 390,
+    "title": "Люля кебаб из курицы",
+    "description": "Приготовлено с любовью."
+  },
+  {
+    "id": 52,
+    "image_path": "IMG_8949.jpg",
+    "image_name": "IMG_8949",
+    "category": "BRAZIER",
+    "price": 520,
+    "title": "Люля кебаб из баранины",
+    "description": "Приготовлено с любовью."
+  },
+  {
+    "id": 53,
+    "image_path": "IMG_8952.jpg",
+    "image_name": "IMG_8952",
+    "category": "HOT-SNACK",
+    "price": 380,
+    "title": "Аджапсандал",
+    "description": "Закуска из печеных баклажанов, томатов, болгарского перца с ароматной зеленью."
+  },
+  {
+    "id": 54,
+    "image_path": "IMG_8955.jpg",
+    "image_name": "IMG_8955",
+    "category": "SOUP",
+    "price": 420,
+    "title": "Уха по царски",
+    "description": "Крепкий рыбный бульон с лососем и овощами."
+  },
+  {
+    "id": 55,
+    "image_path": "IMG_8966.jpg",
+    "image_name": "IMG_8966",
+    "category": "SOUP",
+    "price": 330,
+    "title": "Суп с мини-хинкали",
+    "description": "Прозрачный бульон, мини-хинкали с говядиной и свининой, тархун, кинза."
+  },
+  {
+    "id": 56,
+    "image_path": "IMG_8968.jpg",
+    "image_name": "IMG_8968",
+    "category": "SOUP",
+    "price": 390,
+    "title": "Харчо с говядиной",
+    "description": "Наваристый бульон с говядиной, спелыми томатами, рисом, репчатым луком, пряными грузинскими специями и свежей зеленью."
+  },
+  {
+    "id": 57,
+    "image_path": "IMG_8976.jpg",
+    "image_name": "IMG_8976",
+    "category": "",
+    "price": 100,
+    "title": "Жареная курица",
+    "description": "Приготовлено с любовью."
+  },
+  {
+    "id": 58,
+    "image_path": "IMG_8981.jpg",
+    "image_name": "IMG_8981",
+    "category": "SOUP",
+    "price": 460,
+    "title": "Чанахи с бараниной",
+    "description": "Наваристый бульон с бараниной, печеными томатами, баклажаном и паприкой, репчатым луком, пряными грузинскими специями и свежей зеленью."
+  },
+  {
+    "id": 59,
+    "image_path": "IMG_8984.jpg",
+    "image_name": "IMG_8984",
+    "category": "HOT-SNACK",
+    "price": 390,
+    "title": "Долма",
+    "description": "Фарш из баранины, говядины и свинины , завернутый в виноградные листья, томленый в собственном соку. Подается с соусом мацони."
+  },
+  {
+    "id": 60,
+    "image_path": "IMG_8991.jpg",
+    "image_name": "IMG_8991",
+    "category": "HOT-SNACK",
+    "price": 290,
+    "title": "Лобио",
+    "description": "Традиционное грузинское блюдо на основе томленой сухой красной фасоли с пряными специями. Подается с мжаве."
+  },
+  {
+    "id": 61,
+    "image_path": "IMG_8994.jpg",
+    "image_name": "IMG_8994",
+    "category": "HOT-SNACK",
+    "price": 430,
+    "title": "Чашушули",
+    "description": "Тушеная в томатной пасте телятина с луком , грузинскими специями и зеленью."
+  },
+  {
+    "id": 62,
+    "image_path": "IMG_9002.jpg",
+    "image_name": "IMG_9002",
+    "category": "SOUP",
+    "price": 260,
+    "title": "Куриный суп с домашней лапшой",
+    "description": "Приготовлено с любовью."
+  },
+  {
+    "id": 63,
+    "image_path": "IMG_9008.jpg",
+    "image_name": "IMG_9008",
+    "category": "HOT-SNACK",
+    "price": 380,
+    "title": "Чахохбили",
+    "description": "Тушеная курица в томатах с чесноком, грузинскими специями и зеленью."
+  },
+  {
+    "id": 64,
+    "image_path": "IMG_9014.jpg",
+    "image_name": "IMG_9014",
+    "category": "",
+    "price": 100,
+    "title": "Жареная курица",
+    "description": "Приготовлено с любовью."
+  },
+  {
+    "id": 65,
+    "image_path": "IMG_9024.jpg",
+    "image_name": "IMG_9024",
+    "category": "HOT-SNACK",
+    "price": 460,
+    "title": "Харчо по-мегрельски",
+    "description": "Приготовлено с любовью."
+  },
+  {
+    "id": 66,
+    "image_path": "IMG_9033.jpg",
+    "image_name": "IMG_9033",
+    "category": "MAIN",
+    "price": 90,
+    "title": "Лаваш Грузинский",
+    "description": "Приготовлено с любовью."
+  },
+  {
+    "id": 67,
+    "image_path": "IMG_9034.jpg",
+    "image_name": "IMG_9034",
+    "category": "MAIN",
+    "price": 90,
+    "title": "Лаваш Армянский",
+    "description": "Приготовлено с любовью."
+  },
+  {
+    "id": 68,
+    "image_path": "IMG_9037.jpg",
+    "image_name": "IMG_9037",
+    "category": "",
+    "price": 100,
+    "title": "Жареная курица",
+    "description": "Приготовлено с любовью."
+  },
+  {
+    "id": 69,
+    "image_path": "IMG_9043.jpg",
+    "image_name": "IMG_9043",
+    "category": "DRINKS",
+    "price": 90,
+    "title": "Мацони с зеленью",
+    "description": "Приготовлено с любовью."
+  },
+  {
+    "id": 70,
+    "image_path": "IMG_9046.jpg",
+    "image_name": "IMG_9046",
+    "category": "",
+    "price": 100,
+    "title": "Жареная курица",
+    "description": "Приготовлено с любовью."
+  },
+  {
+    "id": 71,
+    "image_path": "IMG_9051.jpg",
+    "image_name": "IMG_9051",
+    "category": "DESSERT",
+    "price": 220,
+    "title": "Мацони с орехами и медом",
+    "description": "Приготовлено с любовью."
+  },
+  {
+    "id": 72,
+    "image_path": "IMG_9054.jpg",
+    "image_name": "IMG_9054",
+    "category": "",
+    "price": 100,
+    "title": "Жареная курица",
+    "description": "Приготовлено с любовью."
+  },
+  {
+    "id": 73,
+    "image_path": "IMG_9058.jpg",
+    "image_name": "IMG_9058",
+    "category": "BRAZIER",
+    "price": 1900,
+    "title": "Мангал ассорти",
+    "description": "Люля-кебаб из баранины, люля-кебаб из курицы, шашлык из свинины, шашлык из курицы, ребра свиные."
+  },
+  {
+    "id": 74,
+    "image_path": "IMG_9067.jpg",
+    "image_name": "IMG_9067",
+    "category": "DESSERT",
+    "price": 250,
+    "title": "Медовик",
+    "description": "Приготовлено с любовью."
+  },
+  {
+    "id": 75,
+    "image_path": "IMG_9077.jpg",
+    "image_name": "IMG_9077",
+    "category": "DESSERT",
+    "price": 310,
+    "title": "Торт «манговый»",
+    "description": "Приготовлено с любовью."
+  },
+  {
+    "id": 76,
+    "image_path": "IMG_9080.jpg",
+    "image_name": "IMG_9080",
+    "category": "",
+    "price": 100,
+    "title": "Жареная курица",
+    "description": "Приготовлено с любовью."
+  },
+  {
+    "id": 77,
+    "image_path": "IMG_9089.jpg",
+    "image_name": "IMG_9089",
+    "category": "BRAZIER",
+    "price": 540,
+    "title": "Дорадо гриль",
+    "description": "Приготовлено с любовью."
+  },
+  {
+    "id": 78,
+    "image_path": "IMG_9095.jpg",
+    "image_name": "IMG_9095",
+    "category": "HOT-SNACK",
+    "price": 610,
+    "title": "Перепелки с картофелем",
+    "description": "Обжаренная перепелка, маринованная в остром чесночном соусе, подается с хрустящим картофелем."
+  },
+  {
+    "id": 79,
+    "image_path": "IMG_9101.jpg",
+    "image_name": "IMG_9101",
+    "category": "HOT-SNACK",
+    "price": 490,
+    "title": "Цыпленок табака",
+    "description": "Фермерский цыпленок, зажаренный до хрустящей корочки на сковороде под специальным гнетом."
+  },
+  {
+    "id": 80,
+    "image_path": "IMG_9112.jpg",
+    "image_name": "IMG_9112",
+    "category": "BRAZIER",
+    "price": 720,
+    "title": "Стейк из лосося",
+    "description": "Приготовлено с любовью."
+  },
+  {
+    "id": 81,
+    "image_path": "IMG_9130.jpg",
+    "image_name": "IMG_9130",
+    "category": "HOT-SNACK",
+    "price": 450,
+    "title": "Оджахури с телятиной",
+    "description": "Приготовлено с любовью."
+  },
+  {
+    "id": 82,
+    "image_path": "IMG_9137.jpg",
+    "image_name": "IMG_9137",
+    "category": "HOT-SNACK",
+    "price": 370,
+    "title": "Оджахури с курицей",
+    "description": "Приготовлено с любовью."
+  },
+  {
+    "id": 83,
+    "image_path": "IMG_9145.jpg",
+    "image_name": "IMG_9145",
+    "category": "DESSERT",
+    "price": 320,
+    "title": "Шоколадный фондан с ванильным мороженым",
+    "description": "Приготовлено с любовью."
+  },
+  {
+    "id": 84,
+    "image_path": "IMG_9158.jpg",
+    "image_name": "IMG_9158",
+    "category": "DESSERT",
+    "price": 290,
+    "title": "Пахлава",
+    "description": "Приготовлено с любовью."
+  },
+  {
+    "id": 85,
+    "image_path": "IMG_9160.jpg",
+    "image_name": "IMG_9160",
+    "category": "DESSERT",
+    "price": 260,
+    "title": "Яблочный штрудель с ванильным мороженым",
+    "description": "Приготовлено с любовью."
+  },
+  {
+    "id": 86,
+    "image_path": "IMG_3775.jpg",
+    "image_name": "IMG_3775",
+    "category": "MAIN",
+    "price": 160,
+    "title": "Чебуреки с бараниной",
+    "description": "Приготовлено с любовью."
+  },
+  {
+    "id": 87,
+    "image_path": "IMG_3775.jpg",
+    "image_name": "IMG_3775",
+    "category": "MAIN",
+    "price": 140,
+    "title": "Чебуреки с сыром",
+    "description": "Приготовлено с любовью."
+  },
+  {
+    "id": 88,
+    "image_path": "IMG_3775.jpg",
+    "image_name": "IMG_3775",
+    "category": "MAIN",
+    "price": 140,
+    "title": "Чебуреки с сыром",
+    "description": "Приготовлено с любовью."
+  }
+]

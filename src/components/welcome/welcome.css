@@ -1,0 +1,294 @@
+.welcome-container {
+    position: relative;
+    height: 100vh;
+    background: #0D0D0D;
+}
+
+.orange-element:before {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    display: inline-block;
+    height: 571px;
+    width: 410px;
+    background-color: #C35200;
+}
+
+.welcome-background-image {
+    float: right;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.title-container {
+    position: absolute;
+    max-width: 706px;
+    top: 200px;
+    left: 80px;
+    z-index: 1;
+}
+
+.welcome-title,
+.welcome-title > span {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-size: 48px;
+    line-height: 72px;
+    color: #FFFFFF;
+}
+
+.welcome-title > span {
+    color: #C35200;
+}
+
+.title-container-sub-title {
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    margin-top: 20px;
+    color: #FFFFFF;
+}
+
+.title-container button {
+    padding: 16px 48px;
+    display: block;
+    border: 4px solid #10561F;
+    background-color: transparent;
+    color: #FFFFFF;
+    margin-top: 100px;
+    position: relative;
+}
+
+.title-container button a {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+
+.welcome-social-links-container {
+    margin-top: 147px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    outline: none;
+}
+
+.welcome-social-links-container a:not(:first-child) {
+    margin-top: 20px;
+}
+
+.welcome-fb,
+.welcome-insta,
+.welcome-vk {
+    outline: none;
+    text-decoration: none;
+}
+
+.welcome-fb:before {
+    content: url("/images/fb-icon.png");
+}
+
+.welcome-insta:before {
+    content: url("/images/insta-icon.png");
+}
+
+.welcome-vk:before {
+    content: url("/images/vk-icon.png");
+}
+
+@media only screen and (max-width: 1377px) {
+    .welcome-title,
+    .welcome-title > span {
+        font-size: 35px;
+        line-height: 60px;
+    }
+
+    .title-container {
+        max-width: 620px;
+    }
+}
+
+@media only screen and (max-width: 1250px) {
+    .welcome-title,
+    .welcome-title > span {
+        font-size: 26px;
+        line-height: 48px;
+    }
+
+    .title-container {
+        max-width: 445px;
+    }
+
+    .title-container-sub-title {
+        font-size: 13px;
+    }
+
+    .slider-wrapper-welcome li .gatsby-image-wrapper {
+        width: 500px !important;
+        height: 650px !important;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .slider-wrapper-welcome li .gatsby-image-wrapper {
+        width: 450px !important;
+        height: 600px !important;
+    }
+
+    .container-welcome > span {
+        padding: 30px 130px 30px 24px;
+    }
+}
+
+@media only screen and (max-width: 942px) {
+    .slider-wrapper-welcome li .gatsby-image-wrapper {
+        width: 400px !important;
+        height: 550px !important;
+    }
+
+    .title-container {
+        left: 40px;
+    }
+
+    .orange-element::before {
+        width: 360px;
+        height: 531px;
+    }
+    .welcome-title, .welcome-title > span {
+        line-height: 40px;
+    }
+}
+
+@media only screen and (max-width: 868px) {
+    .slider-wrapper-welcome li .gatsby-image-wrapper {
+        width: 350px !important;
+        height: 500px !important;
+    }
+
+    .welcome-container {
+        height: 90vh;
+    }
+
+    .welcome-social-links-container {
+        margin-top: 100px;
+    }
+
+    .orange-element::before {
+        width: 310px;
+        height: 481px;
+    }
+    .welcome-social-links-container {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 808px) {
+    .slider-wrapper-welcome li .gatsby-image-wrapper {
+        width: 300px !important;
+        height: 500px !important;
+    }
+    .slider-container-inner-wrapper-welcome {
+        width: 300px;
+    }
+
+    .orange-element::before {
+        width: 300px;
+        height: 451px;
+    }
+    .title-container {
+        max-width: 320px;
+    }
+    .welcome-title, .welcome-title > span {
+        font-size: 19px;
+        line-height: 30px;
+    }
+    .title-container-sub-title {
+        font-size: 10px;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 666px) {
+    .slider-wrapper-welcome li .gatsby-image-wrapper {
+        width: 335px !important;
+        height: 355px !important;
+    }
+    .slider-container-welcome {
+        right: calc(50% - 150px);
+    }
+    .title-container {
+        top: 550px;
+        display: flex;
+        left: 0;
+        right: 0;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        max-width: 100vw;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .welcome-title, .welcome-title > span {
+        max-width: 200px;
+        text-align: center;
+    }
+    .slider-controller-container-welcome {
+        display: none;
+    }
+    .welcome-title, .welcome-title > span {
+        font-size: 21px;
+        line-height: 30px;
+    }
+    .welcome-title {
+        max-width: 300px;
+    }
+    .title-container button {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .welcome-title {
+        max-width: 330px
+    }
+    .welcome-title, .welcome-title > span {
+        font-size: 20px;
+        text-align: center;
+    }
+    .title-container-sub-title {
+        font-size: 14px;
+    }
+    .orange-element::before {
+        width: 235px;
+    }
+    .slider-wrapper-welcome, .slider-container-inner-wrapper-welcome {
+        height: 350px;
+    }
+    .welcome-container {
+        height: 81vh;
+    }
+    .title-container button {
+        margin-top: 25px;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    .welcome-container {
+        height: 90vh;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .welcome-container {
+        height: 125vh;
+    }
+    .title-container-sub-title {
+        font-size: 13px;
+    }
+}

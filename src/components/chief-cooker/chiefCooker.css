@@ -1,0 +1,240 @@
+.chief-cooker-container {
+    padding-top: 200px;
+    padding-right: 80px;
+    padding-left: 80px;
+    background-color: #0D0D0D;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-chief-cooker-title, .about-chief-cooker-title-mobile {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 52px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
+.about-chief-cooker-title span, .about-chief-cooker-title-mobile span {
+    display: inline-block;
+    color: #C35200;
+}
+
+.about-chief-cooker-title-mobile {
+    display: none;
+}
+
+.about-chief-cooker-container {
+    margin-left: 130px;
+    padding-right: 20px;
+}
+
+.about-chief-cooker-container-post {
+    color: #FFFFFF;
+    font-family: Montserrat sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 32px;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    max-width: 510px;
+}
+
+
+.about-chief-cooker-container p:nth-child(2) {
+    margin-top: 32px;
+}
+
+.about-chief-cooker-container p:nth-child(3) {
+    margin-top: 40px;
+}
+
+.about-chief-cooker-container p:nth-child(4) {
+    margin-top: 40px;
+}
+
+.chief-cooker-image {
+    z-index: 10;
+}
+
+.chief-cooker-image-container {
+    position: relative;
+    z-index: 100;
+    margin-right: 100px;
+    height: 610px;
+}
+
+.SRC-container {
+    position: absolute;
+    height: 400px;
+    width: 290px;
+    background-color: #C35200;
+    bottom: -43px;
+    right: -89px;
+    z-index: 0;
+}
+
+.SRC-container span {
+    display: block;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.SRC-container p:before {
+    content: "SRC";
+    position: absolute;
+    top: 181px;
+    right: 34px;
+    transform: rotate(-90deg);
+    font-family: Montserrat sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.SRC-container p:after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100px;
+    background-color: #000000;
+    top: 260px;
+    right: 0;
+    transform: rotate(-90deg);
+}
+
+.SRC-container p span {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    bottom: 88px;
+    right: 44px;
+    border-top: 2px solid #000000;
+    border-right: 2px solid #000000;
+    transform: rotate(134deg);
+}
+
+@media only screen and (max-width: 1426px) {
+    .about-chief-cooker-container {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 1378px) {
+    .chief-cooker-image-container .gatsby-image-wrapper {
+        width: 471px !important;
+        height: 510px !important;
+    }
+
+    .chief-cooker-image-container {
+        height: 510px;
+    }
+}
+
+@media only screen and (max-width: 1154px) {
+    .about-chief-cooker-title {
+        font-size: 45px;
+    }
+
+    .about-chief-cooker-container-post {
+        font-size: 18px;
+    }
+
+    .chief-cooker-image-container .gatsby-image-wrapper {
+        width: 421px !important;
+        height: 460px !important;
+    }
+
+    .SRC-container {
+        bottom: 0;
+    }
+
+    .about-chief-cooker-container p:nth-child(3) {
+        margin-top: 20px;
+    }
+
+    .about-chief-cooker-container p:nth-child(4) {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 1060px) {
+    .chief-cooker-container {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-chief-cooker-title {
+        display: none;
+    }
+
+    .about-chief-cooker-title-mobile {
+        display: block;
+        font-size: 34px;
+        padding-bottom: 24px;
+        text-align: center;
+    }
+
+    .chief-cooker-container {
+        padding-top: 100px;
+    }
+}
+
+@media only screen and (max-width: 630px) {
+    .SRC-container {
+        display: none;
+    }
+
+    .chief-cooker-image-container .gatsby-image-wrapper {
+        width: 371px !important;
+        height: 410px !important;
+    }
+
+    .chief-cooker-image-container {
+        width: 371px;
+        height: 410px;
+        margin-right: 0;
+    }
+
+    .chief-cooker-container {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+
+    .about-chief-cooker-container {
+        padding-right: 0;
+    }
+}
+@media only screen and (max-width: 414px) {
+    .chief-cooker-container {
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 70px;
+    }
+
+    .contact-info-container {
+        padding: 15px !important;
+    }
+
+    .contacts-container-wrapper {
+        padding-bottom: 45px !important;
+    }
+    .about-chief-cooker-title-mobile {
+        padding-bottom: 40px;
+        font-size: 32px;
+    }
+}
+@media only screen and (max-width: 390px) {
+    .chief-cooker-image-container .gatsby-image-wrapper {
+        width: 335px !important;
+        height: 360px !important;
+    }
+    .chief-cooker-image-container {
+        width: 335px !important;
+        height: 360px !important
+    }
+}
