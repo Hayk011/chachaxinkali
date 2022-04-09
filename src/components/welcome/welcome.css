@@ -91,15 +91,15 @@
 }
 
 .welcome-fb:before {
-    content: url("/images/fb-icon.png");
+    content: url("../../images/fb-icon.png");
 }
 
 .welcome-insta:before {
-    content: url("/images/insta-icon.png");
+    content: url("../../images/insta-icon.png");
 }
 
 .welcome-vk:before {
-    content: url("/images/vk-icon.png");
+    content: url("../../images/vk-icon.png");
 }
 
 @media only screen and (max-width: 1377px) {

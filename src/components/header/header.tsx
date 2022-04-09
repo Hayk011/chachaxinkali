@@ -38,7 +38,7 @@ const menu: IMenu[] = [
 const Header: React.FC<HeaderProps> = ({siteTitle}: HeaderProps) => {
     return (
         <header>
-            <img src={"/images/logo.png"} alt="logo"/>
+            <img src={"./images/logo.png"} alt="logo"/>
             <ul className="menu-container">
                 {
                     menu.map((item: IMenu) => (

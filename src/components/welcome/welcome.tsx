@@ -74,35 +74,3 @@ const Welcome: React.FC = () => {
 }
 
 export default Welcome;
-
-
-// <div className="welcome-container">
-//     <span className="orange-element"/>
-//     <div className="welcome-background-image">
-//         <StaticImage
-//             src="../../images/welcome.png"
-//             alt="welcome"
-//             placeholder="blurred"
-//             quality={100}
-//         />
-//     </div>
-//     <div className="title-container">
-//         <p className="welcome-title">ДАБРО ПОЖАЛОВАТЬ В РЕСТОРАН <span>ЧаЧа ХИНКАЛИ</span></p>
-//         <span className="title-container-sub-title">У НАС ЛУЧШИЕ ХИНКАЛИ В САНКТ-ПЕТЕРБУРГЕ</span>
-//         <button> <a href={"#menu"}/>СМОТРЕТЬ МЕНЮ</button>
-//         <div id={"about"} className="welcome-social-links-container">
-//             {links.map((link: ILink) => (
-//                 <a
-//                     key={link.id}
-//                     href={link.href}
-//                     className={link.className}
-//                     target="_blank"
-//                 />
-//             ))}
-//         </div>
-//     </div>
-//     <Slider
-//         content="welcome"
-//         images={images}
-//     />
-// </div>
