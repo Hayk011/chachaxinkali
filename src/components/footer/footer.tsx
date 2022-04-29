@@ -1,6 +1,5 @@
 import React from "react";
 import "./footer.css";
-import {IMenuContent} from "../../utils/interfaces/interfaces";
 import {ImageTypes} from "../../utils/enums/imageTypes";
 import Image from "../image/image";
 

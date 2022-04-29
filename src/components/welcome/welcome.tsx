@@ -27,14 +27,14 @@ const images: IImage[] = [
     {
         id: 1,
         type: ImageTypes.Fixed,
-        imageName: "image1",
-        alt: "image1"
+        imageName: "IMG_3875",
+        alt: "IMG_3875"
     },
     {
         id: 2,
         type: ImageTypes.Fixed,
-        imageName: "image1",
-        alt: "image1"
+        imageName: "IMG_8949",
+        alt: "IMG_8949"
     },
 ]
 

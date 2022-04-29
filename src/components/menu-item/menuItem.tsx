@@ -5,7 +5,7 @@ import "./menuItem.css";
 
 const MenuItem: React.FC<IMenuItemProps> = (props: IMenuItemProps) => {
     return (
-        <li className={"menu-item"}>
+        <li key={props.uniqueId} className={"menu-item"}>
             <div className={"menu-item-image-container"} style={{position: "relative", height: "85px", width: "85px", backgroundColor: "#C35200"}}>
                 <Image type={props.type} imageName={props.imageName} alt={props.alt} className={"menu-item-image"} />
             </div>

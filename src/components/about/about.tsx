@@ -3,23 +3,24 @@ import Slider from "../slider/slider";
 import {IAboutContent, IImage} from ".././../utils/interfaces/interfaces";
 import "./about.css";
 import {ImageTypes} from "../../utils/enums/imageTypes";
+import Image from "../image/image";
 
 
 const aboutContent: IAboutContent[] = [
     {
         id: 1,
         title: "2 зала",
-        text: "Всегда уютная обстановка и приятная атмосфера, для отдыха с друзьями, семьей или второй половинкой. Главный зал рассчитан на 60 гостей. Отдельный VIP-зал рассчитан на 20 гостей."
+        text: "Самый радушный и гостеприимный грузинский дом Чача Хинкали покажет тебе, что значит полная гамарджоба! Приходите и попробуйте наши лучшие хинкали в Санкт-Петербурге."
     },
     {
         id: 2,
         title: "Бесплатная парковка",
-        text: "Просторная парковка возле ресторана. Всегда есть место, где припарковать свой авто. В двух шагах находится охраняемая стоянка."
+        text: "В меню собраны популярные кавказские блюда, сациви, пхали, шашлыки, хачапури. Также можно  попробовать  домашние  варенья и выпить кофе в турку. А вина выдержанные в глиняных квеври не оставит гостя равнодушным."
     },
     {
         id: 3,
         title: "Детская комната",
-        text: "Ваши малыши могут проводить время не только за столом, но и в оборудованной детской комнате."
+        text: "Забота и любовь к любимым гостям  начинается  именно в доме Чача Хинкали."
     }
 ];
 
@@ -27,8 +28,8 @@ const images: IImage[] = [
     {
         id: 1,
         type: ImageTypes.Fixed,
-        imageName: "about",
-        alt: "about"
+        imageName: "IMG_4796",
+        alt: "IMG_4796"
     }
 ]
 
@@ -36,19 +37,19 @@ const images: IImage[] = [
 const About: React.FC = () =>
 {
     return (
-        <div className="about-container">
+        <div id={"about"} className="about-container">
             <p className="about-title-mobile">A<span>bout Us</span></p>
             <div className="about-slider-content-wrapper">
-                <Slider
-                    content="about"
-                    images={images}
+                <Image
+                    type={ImageTypes.Fixed}
+                    imageName={"IMG_4796"}
+                    alt={""}
                 />
                 <div className="about-container-content">
-                    <p className="about-title">A<span>bout Us</span></p>
+                    <p className="about-title">О <span> нас</span></p>
                     <ul>
                         {aboutContent.map((item: IAboutContent) => (
                             <li key={item.id}>
-                                <p className="about-sub-title">{item.title}</p>
                                 <p className="about-post">{item.text}</p>
                             </li>
                         ))}

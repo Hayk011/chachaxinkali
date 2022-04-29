@@ -20,6 +20,7 @@ export default function Dropdown(props: any) {
                     {
                         props.menu.map((item: IMenu) => (
                             <li
+                                key = {item.id}
                                 onClick={ () => {
                                     setIsActive(false)
                                     props.setActiveMenu(item.title);

@@ -46,6 +46,7 @@ const menu: IMenu[] = [
 ]
 
 
+// @ts-ignore
 const Menu: React.FC = ({data}) => {
     const [activeMenu, setActiveMenu] = React.useState<string>("Оснавные блюда");
     const [page, setPage] = React.useState<number>(0);
@@ -118,7 +119,7 @@ const Menu: React.FC = ({data}) => {
 
     return (
         <div id={"menu"} className="menu-component-container">
-            <p className="menu-component-title">M<span>enu</span></p>
+            <p className="menu-component-title">М<span>еню</span></p>
             <ul className="menu-component-menu-container">
                 {menu.map((item: IMenu) => (
                     <li
@@ -147,15 +148,17 @@ const Menu: React.FC = ({data}) => {
             </div>
             <ul className="menu-component-content-container">
                 {
-                    [...menuData[currantCategory]].splice(page, itemCount).map((item: any) => (
-                        <MenuItem
-                            key={item.id}
-                            title={item.title}
-                            price={item.price}
-                            description={item.description}
-                            type={ImageTypes.Fixed}
-                            imageName={item.image_name}
-                        />
+                    [...menuData[currantCategory]].splice(page, itemCount).map((item: any, index: number) => (
+                            <MenuItem
+                                key={index}
+                                alt={item.image_name}
+                                uniqueId={item.id}
+                                title={item.title}
+                                price={item.price}
+                                description={item.description}
+                                type={ImageTypes.Fixed}
+                                imageName={item.image_name}
+                            />
                     ))
                 }
             </ul>
@@ -167,7 +170,7 @@ const Menu: React.FC = ({data}) => {
                             style={{marginLeft: `${index !== 0}` ? "14px" : ""}}
                             className={`pagination-item ${index === activePage ? "active-page" : ""}`}
                             onClick={() => activePageHandler(index)}
-                        />
+                        ><a href={"#menu"}/></span>
                     ))
                 }
             </div>
@@ -177,6 +180,7 @@ const Menu: React.FC = ({data}) => {
 
 export default function MyMenu(props: any) {
     return (
+        // @ts-ignore
         <StaticQuery
             query={graphql`
         query {

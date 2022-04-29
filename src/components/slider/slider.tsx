@@ -42,7 +42,6 @@ const Slider: React.FC<ISliderProps> = (props: ISliderProps) =>
         {
             return 500;
         }
-        console.log(slsidePosition, "okoko")
 
         return slsidePosition;
     }
@@ -50,11 +49,8 @@ const Slider: React.FC<ISliderProps> = (props: ISliderProps) =>
     const sliderHandler = (side: string) =>
     {
         const a = widthHandler();
-        console.log(a, "before")
-        console.log(side, "side");
         if (side === "left")
         {
-
             if ((sliderPosition + a)  === props.images.length * a)
             {
                 setSliderPosition(0)
@@ -66,7 +62,6 @@ const Slider: React.FC<ISliderProps> = (props: ISliderProps) =>
         }
         else
         {
-            console.log(a, "after");
             if ((sliderPosition - a)  === props.images.length * (-a))
             {
                 setSliderPosition(0)
@@ -82,7 +77,6 @@ const Slider: React.FC<ISliderProps> = (props: ISliderProps) =>
         <div className={`slider-container-${props.content}`}>
             <div style={{position: "relative"}}>
                 <div className={`slider-container-inner-wrapper-${props.content}`}>
-                    {console.log(width, "widthhhhh")}
                     <ul style={{left: sliderPosition}} className={`slider-wrapper-${props.content}`}>
                         {
                             props.images.map((image: IImage) => (

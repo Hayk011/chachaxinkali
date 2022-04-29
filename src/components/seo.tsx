@@ -36,6 +36,7 @@ function Seo({description = "", lang = "en", meta = [], title = ""}: SEOProps) {
     const defaultTitle: string = site.siteMetadata?.title
 
     return (
+        // @ts-ignore
         <Helmet
             htmlAttributes={{
                 lang,

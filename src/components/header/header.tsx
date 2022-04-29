@@ -35,10 +35,13 @@ const menu: IMenu[] = [
 ]
 
 
-const Header: React.FC<HeaderProps> = ({siteTitle}: HeaderProps) => {
+const Header: React.FC<HeaderProps> = (props: HeaderProps) => {
+
+    const [isOpen, setIsOpen] = React.useState<boolean>(false)
+
     return (
         <header>
-            <img src={"./images/logo.png"} alt="logo"/>
+            <img src={"./images/logo.svg"} alt="logo"/>
             <ul className="menu-container">
                 {
                     menu.map((item: IMenu) => (
@@ -48,6 +51,24 @@ const Header: React.FC<HeaderProps> = ({siteTitle}: HeaderProps) => {
                     ))
                 }
             </ul>
+            <div onClick={() => setIsOpen(!isOpen)} className={"burger-menu"}>
+                <span/>
+                <span/>
+                <span/>
+            </div>
+            <div className={"mobile-router"} style={{ left: isOpen ? "20%" : "100%" }}>
+                <span onClick={() => setIsOpen(false)}/>
+                <ul className="mobile-router-container">
+                    {
+                        menu.map((item: IMenu) => (
+                            <li onClick={() => setIsOpen(false)} key={item.id}>
+                                <a href={item.path}>{item.title}</a>
+                            </li>
+                        ))
+                    }
+                </ul>
+
+            </div>
         </header>
     )
 }

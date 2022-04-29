@@ -33,7 +33,7 @@ const Contacts: React.FC = () =>
             />
             <div className="contacts-container">
                 <div style={{position: "relative"}}>
-                    <p className="contact-title">C<span>ontacts</span></p>
+                    <p className="contact-title">К<span>онтакты</span></p>
                     <div className="contact-info-container">
                         <p className="contact-item contact-work-time">Ждем вас в гости, ежедневно 12:00 - 23:00</p>
                         <p className="contact-item contact-address">Санкт-Петербург, Комендантский проспект, д. 44</p>

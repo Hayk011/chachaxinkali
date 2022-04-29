@@ -61,8 +61,10 @@ export interface IMenuData {
 
 export interface IMenuItemProps extends IImageProps {
     key: number;
+    uniqueId: number;
     title: string;
     price: number;
+    alt: string;
     description: string;
 }
 

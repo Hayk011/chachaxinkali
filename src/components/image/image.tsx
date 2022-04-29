@@ -6,13 +6,13 @@ import { ImageTypes } from "../../utils/enums/imageTypes";
 
 
 
-const Image = (props: IImageProps) =>
+const Image = (props: IImageProps): any =>
 {
     const data = useStaticQuery(graphql`
        query {
-        image1: file(relativePath:{eq:"image1.png"}){
+        image1: file(relativePath:{eq:"slider-item-IMG-20220429.png"}){
             childImageSharp{
-                fixed(width: 550, height: 704){
+                fixed(quality: 100){
                 ...GatsbyImageSharpFixed
             }
         }
@@ -24,7 +24,7 @@ const Image = (props: IImageProps) =>
             }
         }
     }
-        about: file(relativePath:{eq:"about.png"}){
+        IMG_4796: file(relativePath:{eq:"IMG_4796.jpg"}){
             childImageSharp{
                 fixed(width: 620, height: 603) {
                 ...GatsbyImageSharpFixed
@@ -87,7 +87,7 @@ const Image = (props: IImageProps) =>
             }
         }
     }
-     ChiefCooker: file(relativePath:{eq:"ChiefCooker.png"}){
+     ChiefCooker: file(relativePath:{eq:"ChiefCooker.jpg"}){
             childImageSharp{
                 fixed(height: 610, width: 571){
                 ...GatsbyImageSharpFixed
@@ -729,7 +729,9 @@ const Image = (props: IImageProps) =>
     return (
         <>
             {
+                // @ts-ignore
                 props.type === ImageTypes.Fixed ? <Img className={props.className} fixed={data[props.imageName].childImageSharp.fixed} alt={props.alt} /> :
+                    // @ts-ignore
                     <Img className={props.className} fluid={data[props.imageName].childImageSharp.fluid} alt={props.alt} />
             }
         </>
