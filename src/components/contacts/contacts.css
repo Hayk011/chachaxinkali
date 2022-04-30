@@ -77,15 +77,15 @@
 }
 
 .contact-fb:before {
-    content: url("/images/fb-icon.png");
+    content: url("../../images/facebook-icon.svg");
 }
 
 .contact-insta:before {
-    content: url("/images/insta-icon.png");
+    content: url("../../images/instagram-icon.svg");
 }
 
 .contact-vk:before {
-    content: url("/images/vk-icon.png");
+    content: url("../../images/vk-icone.svg");
 }
 
 .contact-link-container a:not(:first-child) {
@@ -93,7 +93,7 @@
 }
 
 .contact-background-image {
-    position: absolute;
+    position: absolute !important;
     top: 115px;
     left: 0;
     z-index: -1;

@@ -9,7 +9,7 @@ html .slider2-first-container ul li .gatsby-image-wrapper {
 .slider2-first-container ul {
     display: flex;
     max-width: 550px;
-    overflow: hidden;
+    transition: all 0.8s;
     position: relative;
     z-index: 1;
 }
@@ -17,6 +17,13 @@ html .slider2-first-container ul li .gatsby-image-wrapper {
     position: absolute;
     bottom: -30px;
     left: -82px;
+    cursor: pointer;
+}
+.slider-wrapper-container {
+    position: relative;
+    height: 707px;
+    width: 550px;
+    overflow: hidden;
 }
 .slider2-controller-container > span {
     display: block;
@@ -55,6 +62,10 @@ html .slider2-first-container ul li .gatsby-image-wrapper {
         width: 450px !important;
         height: 607px !important;
     }
+    .slider-wrapper-container {
+        width: 450px !important;
+        height: 607px !important;
+    }
 }
 @media only screen and (max-width: 1210px) {
     .main-title, .main-title > span {
@@ -80,6 +91,10 @@ html .slider2-first-container ul li .gatsby-image-wrapper {
             width: 350px !important;
             height: 407px !important;
         }
+        .slider-wrapper-container {
+        width: 350px !important;
+        height: 407px !important;
+        }
         .main-orange-element {
         height: 471px;
         width: 310px;
@@ -99,6 +114,10 @@ html .slider2-first-container ul li .gatsby-image-wrapper {
         width: 300px !important;
         height: 357px !important;
     }
+    .slider-wrapper-container {
+        width: 300px !important;
+        height: 357px !important;
+    }
     .slider2-first-container ul {
         max-width: 300px;
     }
@@ -109,7 +128,4 @@ html .slider2-first-container ul li .gatsby-image-wrapper {
         height: 371px;
         width: 210px;
     }
-}
-@media only screen and (max-width: 751px) {
-
 }

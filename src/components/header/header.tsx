@@ -35,6 +35,7 @@ const menu: IMenu[] = [
 ]
 
 
+// @ts-ignore
 const Header: React.FC<HeaderProps> = (props: HeaderProps) => {
 
     const [isOpen, setIsOpen] = React.useState<boolean>(false)
@@ -67,7 +68,6 @@ const Header: React.FC<HeaderProps> = (props: HeaderProps) => {
                         ))
                     }
                 </ul>
-
             </div>
         </header>
     )

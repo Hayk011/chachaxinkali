@@ -10,7 +10,63 @@ const Image = (props: IImageProps): any =>
 {
     const data = useStaticQuery(graphql`
        query {
-        image1: file(relativePath:{eq:"slider-item-IMG-20220429.png"}){
+        slider_item_IMG_20220429: file(relativePath:{eq:"slider-item-IMG-20220429.png"}){
+            childImageSharp{
+                fixed(quality: 100){
+                ...GatsbyImageSharpFixed
+            }
+        }
+    }
+    slider_item_IMG_9101: file(relativePath:{eq:"slider-item-IMG_9101.png"}){
+            childImageSharp{
+                fixed(quality: 100){
+                ...GatsbyImageSharpFixed
+            }
+        }
+    }
+    slider_item_IMG_8994: file(relativePath:{eq:"slider-item-IMG_8994.png"}){
+            childImageSharp{
+                fixed(quality: 100){
+                ...GatsbyImageSharpFixed
+            }
+        }
+    }
+    slider_item_IMG_8937: file(relativePath:{eq:"slider-item-IMG_8937.png"}){
+            childImageSharp{
+                fixed(quality: 100){
+                ...GatsbyImageSharpFixed
+            }
+        }
+    }
+    slider_item_IMG_3846: file(relativePath:{eq:"slider-item-IMG_3846.png"}){
+            childImageSharp{
+                fixed(quality: 100){
+                ...GatsbyImageSharpFixed
+            }
+        }
+    }
+    slider_item_IMG_3784: file(relativePath:{eq:"slider-item-IMG_3784.png"}){
+            childImageSharp{
+                fixed(quality: 100){
+                ...GatsbyImageSharpFixed
+            }
+        }
+    }
+    slider_item_IMG_3779: file(relativePath:{eq:"slider-item-IMG_3779.png"}){
+            childImageSharp{
+                fixed(quality: 100){
+                ...GatsbyImageSharpFixed
+            }
+        }
+    }
+    slider_item_IMG_3695: file(relativePath:{eq:"slider-item-IMG_3695.png"}){
+            childImageSharp{
+                fixed(quality: 100){
+                ...GatsbyImageSharpFixed
+            }
+        }
+    }
+    slider_item_IMG_3587: file(relativePath:{eq:"slider-item-IMG_3587.png"}){
             childImageSharp{
                 fixed(quality: 100){
                 ...GatsbyImageSharpFixed
