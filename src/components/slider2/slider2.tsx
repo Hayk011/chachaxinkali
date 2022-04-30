@@ -73,16 +73,16 @@ const images: IImage[] = [
 
 const Slider2 = () =>
 {
-    const [width, setWidth] = React.useState<number>(window.innerWidth);
+    const [width, setWidth] = React.useState<number>(typeof window !== "undefined" ? window.innerWidth: 10000);
     const [sliderPosition, setSliderPosition] = React.useState<number>(0);
 
     React.useEffect(() => {
         function handleResize () {
-            setWidth(window.innerWidth);
+            setWidth(typeof window !== "undefined" ? window.innerWidth: 10000);
         }
-        window.addEventListener('resize', handleResize);
+        typeof window !== "undefined" && window.addEventListener('resize', handleResize);
         return () => {
-            window.removeEventListener('resize', handleResize);
+            typeof window !== "undefined" &&  window.removeEventListener('resize', handleResize);
         }
     });
 
