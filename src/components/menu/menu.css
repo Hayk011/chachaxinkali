@@ -146,8 +146,7 @@
         display: none;
     }
     .menu-mobile-container-wrapper {
-        display: flex;
-        justify-content: end;
+        display: block;
         margin-top: 20px;
     }
 }
