@@ -22,7 +22,7 @@ const ChiefCooker = () => {
                     <p><span/></p>
                 </div>
             </div>
-            <p className={"about-chief-cooker-title-mobile"}><span>C</span>hief-Cooker</p>
+            <p className={"about-chief-cooker-title-mobile"}><span>Ш</span>еф-повар</p>
         </div>
     )
 }

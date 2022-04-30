@@ -58,7 +58,7 @@ const Contacts: React.FC = () =>
                     </iframe>
                 </div>
 
-                <p className="contact-title-mobile">C<span>ontacts</span></p>
+                <p className="contact-title-mobile">К<span>онтакты</span></p>
             </div>
 
         </div>
