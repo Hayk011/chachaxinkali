@@ -1,7 +1,7 @@
 module.exports = {
     siteMetadata: {
-        title: "Gatsby Default Starter",
-        description: "Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.",
+        title: "Грузинский ресторан Чача Хинкали.",
+        description: "Самый радушный и гостеприимный грузинский дом Чача Хинкали покажет тебе, что значит полная гамарджоба! Приходите и попробуйте наши лучшие хинкали в Санкт-Петербурге.",
         author: "Hayk Sargsyan",
     },
     plugins: [
