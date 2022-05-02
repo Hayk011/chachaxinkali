@@ -12,7 +12,7 @@ import Main from "../components/main/main";
 const IndexPage = () => (
     <Layout>
         <Seo title="Home"/>
-         <Main/>
+        <Main/>
         <About2/>
         <Menu/>
         <ChiefCooker/>

@@ -6,7 +6,7 @@ import {ILink} from "../../utils/interfaces/interfaces";
 const links: ILink[] = [
     {
         id: 1,
-        href: "https://www.facebook.com/hayk.gukasyan.79",
+        href: "https://vk.com/away.php?to=https%3A%2F%2Fwww.facebook.com%2Fchachahinkali",
         className: "contact-fb"
     },
     {
@@ -16,7 +16,7 @@ const links: ILink[] = [
     },
     {
         id: 3,
-        href: "",
+        href: "https://vk.com/chachakhinkali",
         className: "contact-vk"
     }
 ];

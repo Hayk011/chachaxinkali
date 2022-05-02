@@ -7,7 +7,7 @@ import Slider2 from "../slider2/slider2";
 const links: ILink[] = [
     {
         id: 1,
-        href: "https://www.facebook.com/hayk.gukasyan.79",
+        href: "https://vk.com/away.php?to=https%3A%2F%2Fwww.facebook.com%2Fchachahinkali",
         className: "main-icon-facebook"
     },
     {
@@ -17,7 +17,7 @@ const links: ILink[] = [
     },
     {
         id: 3,
-        href: "",
+        href: "https://vk.com/chachakhinkali",
         className: "main-icon-vk"
     }
 ];
